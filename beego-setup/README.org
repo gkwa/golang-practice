@@ -22,7 +22,8 @@ REM install chocolatey
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && set PATH=c:\chocolatey\bin;C:\ProgramData\chocolatey\bin;%PATH%
 set PATH=c:\chocolatey\bin;C:\ProgramData\chocolatey\bin;%PATH%
 
-REM install golang
+REM install golang 
+REM https://chocolatey.org/packages?q=golang
 choco install golang -yes --version=1.5.1
 
 REM need to restart cmd.exe to get %GOROOT% into System's environment

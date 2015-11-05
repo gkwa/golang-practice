@@ -35,3 +35,14 @@ setup on Windows
     REM need to restart cmd.exe to get %GOROOT% into System's environment
     REM variables, (%GOROOT% evals to c:\tools\go)
 
+    set GOPATH=c:\gowork
+    setx GOPATH c:\gowork
+    mkdir %GOPATH%
+    set PATH=%PATH%;%GOPATH%\bin
+    setx PATH %PATH%;%GOPATH%\bin
+    go get github.com/beego/bee
+    cd %GOPATH%/src
+    bee new myproject
+    cd myproject
+    bee run
+

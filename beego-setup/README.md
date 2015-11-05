@@ -2,17 +2,18 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 Beego web framwork setup/test
 
-- [beego site](#beego-site)
+- [beego intro](#beego-intro)
 - [install beego on OS X](#install-beego-on-os-x)
 - [install beego on Windows](#install-beego-on-windows)
 - [create my new beego project](#create-my-new-beego-project)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-beego site
-==========
+beego intro
+===========
 
-<http://beego.me/docs/install/bee.md#bee-tool-commands>
+-   <http://beego.me/docs/install/bee.md#bee-tool-commands>
+-   <https://github.com/beego/beedoc/blob/master/en-US/intro/Introduction.md>
 
 install beego on OS X
 =====================

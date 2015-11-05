@@ -2,4 +2,4 @@ all: README.md
 
 %.md : %.org
 	docker run -v `pwd`:/source jagregory/pandoc --from=org --to=markdown --output=$@ $<
-	doctoc --title 'Golang setup' $@
+	doctoc --title 'Beego web framwork setup/test' $@

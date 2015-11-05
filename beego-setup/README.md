@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Golang setup
+Beego web framwork setup/test
 
 - [beego site](#beego-site)
 - [setup on OS X](#setup-on-os-x)

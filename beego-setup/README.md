@@ -20,7 +20,7 @@ setup on OS X
     # Install golang
     brew install go --cross-compile-common
 
-    # Set my personal workspace
+    # Set my personal Go workspace
     export GOPATH=$HOME/pdev/golang-practice
     export PATH=$PATH:$GOPATH/bin
 
@@ -42,7 +42,7 @@ setup on Windows
     REM need to restart cmd.exe to get %GOROOT% into System's environment
     REM variables, (%GOROOT% evals to c:\tools\go)
 
-    REM Set my personal workspace
+    REM Set my personal Go workspace
     set GOPATH=c:\gowork
     setx GOPATH c:\gowork
     mkdir %GOPATH%

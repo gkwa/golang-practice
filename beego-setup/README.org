@@ -23,4 +23,7 @@ set PATH=c:\chocolatey\bin;C:\ProgramData\chocolatey\bin;%PATH%
 
 REM install golang
 choco install golang -yes --version=1.5.1
+
+REM need to restart cmd.exe to get %GOROOT% into System's environment
+REM variables, (%GOROOT% evals to c:\tools\go)
 #+END_SRC

@@ -20,6 +20,7 @@ setup on OS X
     bee new myproject
     cd myproject
     bee run
+    # visit localhost:8080 in browser
 
 setup on Windows
 ================
@@ -30,4 +31,7 @@ setup on Windows
 
     REM install golang
     choco install golang -yes --version=1.5.1
+
+    REM need to restart cmd.exe to get %GOROOT% into System's environment
+    REM variables, (%GOROOT% evals to c:\tools\go)
 

@@ -1,0 +1,25 @@
+http://beego.me/docs/install/bee.md#bee-tool-commands
+
+* setup on OS X
+
+#+BEGIN_SRC
+brew install go --cross-compile-common
+export GOPATH=$HOME/pdev/golang-practice
+export PATH=$PATH:$GOPATH/bin
+go get github.com/beego/bee
+cd $GOPATH/src
+bee new myproject
+cd myproject
+bee run
+#+END_SRC
+
+* setup on Windows
+
+#+BEGIN_SRC
+REM install chocolatey
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && set PATH=c:\chocolatey\bin;C:\ProgramData\chocolatey\bin;%PATH%
+set PATH=c:\chocolatey\bin;C:\ProgramData\chocolatey\bin;%PATH%
+
+REM install golang
+choco install golang -yes --version=1.5.1
+#+END_SRC

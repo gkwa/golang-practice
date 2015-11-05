@@ -3,8 +3,8 @@
 Beego web framwork setup/test
 
 - [beego site](#beego-site)
-- [setup on OS X](#setup-on-os-x)
-- [setup on Windows](#setup-on-windows)
+- [install beego on OS X](#install-beego-on-os-x)
+- [install beego on Windows](#install-beego-on-windows)
 - [create my new beego project](#create-my-new-beego-project)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -14,8 +14,8 @@ beego site
 
 <http://beego.me/docs/install/bee.md#bee-tool-commands>
 
-setup on OS X
-=============
+install beego on OS X
+=====================
 
     # Install golang
     brew install go --cross-compile-common
@@ -28,8 +28,8 @@ setup on OS X
     go get github.com/beego/bee
     cd $GOPATH/src
 
-setup on Windows
-================
+install beego on Windows
+========================
 
     REM install chocolatey
     @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && set PATH=c:\chocolatey\bin;C:\ProgramData\chocolatey\bin;%PATH%

@@ -1,7 +1,7 @@
 * beego site
 http://beego.me/docs/install/bee.md#bee-tool-commands
 
-* setup on OS X
+* install beego on OS X
 
 #+BEGIN_SRC
 # Install golang
@@ -16,7 +16,7 @@ go get github.com/beego/bee
 cd $GOPATH/src
 #+END_SRC
 
-* setup on Windows
+* install beego on Windows
 
 #+BEGIN_SRC
 REM install chocolatey

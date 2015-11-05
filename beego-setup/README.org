@@ -4,15 +4,16 @@ http://beego.me/docs/install/bee.md#bee-tool-commands
 * setup on OS X
 
 #+BEGIN_SRC
+# Install golang
 brew install go --cross-compile-common
+
+# Set my personal workspace
 export GOPATH=$HOME/pdev/golang-practice
 export PATH=$PATH:$GOPATH/bin
+
+# Install Beego framework
 go get github.com/beego/bee
 cd $GOPATH/src
-bee new myproject
-cd myproject
-bee run
-# visit localhost:8080 in browser
 #+END_SRC
 
 * setup on Windows
@@ -29,6 +30,7 @@ choco install golang -yes --version=1.5.1
 REM need to restart cmd.exe to get %GOROOT% into System's environment
 REM variables, (%GOROOT% evals to c:\tools\go)
 
+REM Set my personal workspace
 set GOPATH=c:\gowork
 setx GOPATH c:\gowork
 mkdir %GOPATH%
@@ -36,7 +38,15 @@ set PATH=%PATH%;%GOPATH%\bin
 setx PATH %PATH%;%GOPATH%\bin
 go get github.com/beego/bee
 cd %GOPATH%/src
+#+END_SRC
+
+* create my new beego project
+
+#+BEGIN_SRC
 bee new myproject
 cd myproject
 bee run
 #+END_SRC
+
+Now visit 
+http://localhost:8080

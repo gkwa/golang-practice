@@ -5,6 +5,7 @@ Beego web framwork setup/test
 - [beego site](#beego-site)
 - [setup on OS X](#setup-on-os-x)
 - [setup on Windows](#setup-on-windows)
+- [create my new beego project](#create-my-new-beego-project)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -16,15 +17,16 @@ beego site
 setup on OS X
 =============
 
+    # Install golang
     brew install go --cross-compile-common
+
+    # Set my personal workspace
     export GOPATH=$HOME/pdev/golang-practice
     export PATH=$PATH:$GOPATH/bin
+
+    # Install Beego framework
     go get github.com/beego/bee
     cd $GOPATH/src
-    bee new myproject
-    cd myproject
-    bee run
-    # visit localhost:8080 in browser
 
 setup on Windows
 ================
@@ -40,6 +42,7 @@ setup on Windows
     REM need to restart cmd.exe to get %GOROOT% into System's environment
     REM variables, (%GOROOT% evals to c:\tools\go)
 
+    REM Set my personal workspace
     set GOPATH=c:\gowork
     setx GOPATH c:\gowork
     mkdir %GOPATH%
@@ -47,7 +50,12 @@ setup on Windows
     setx PATH %PATH%;%GOPATH%\bin
     go get github.com/beego/bee
     cd %GOPATH%/src
+
+create my new beego project
+===========================
+
     bee new myproject
     cd myproject
     bee run
 
+Now visit <http://localhost:8080>

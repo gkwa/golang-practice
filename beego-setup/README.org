@@ -1,3 +1,4 @@
+* beego site
 http://beego.me/docs/install/bee.md#bee-tool-commands
 
 * setup on OS X

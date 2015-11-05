@@ -2,10 +2,14 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 Golang setup
 
+- [beego site](#beego-site)
 - [setup on OS X](#setup-on-os-x)
 - [setup on Windows](#setup-on-windows)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+beego site
+==========
 
 <http://beego.me/docs/install/bee.md#bee-tool-commands>
 

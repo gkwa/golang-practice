@@ -14,6 +14,7 @@ beego intro
 
 -   <http://beego.me/docs/install/bee.md#bee-tool-commands>
 -   <https://github.com/beego/beedoc/blob/master/en-US/intro/Introduction.md>
+-   <http://beego.me/docs/quickstart/router.md>
 
 install beego on OS X
 =====================

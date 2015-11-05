@@ -11,6 +11,7 @@ cd $GOPATH/src
 bee new myproject
 cd myproject
 bee run
+# visit localhost:8080 in browser
 #+END_SRC
 
 * setup on Windows
